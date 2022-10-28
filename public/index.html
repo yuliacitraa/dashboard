@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+  </head>
+  <body>
+    <section class="bg-blue-100 flex flex-wrap">
+      <!-- side bar -->
+      <section class="">
+        <div class="w-72 h-screen bg-blue-50 p-5">
+          <div class="img">
+            <!-- <img src="" alt="logo" /> -->
+            <h1 class="text-xl font-semibold text-center text-blue-600 pt-8">
+              Admin Page
+            </h1>
+          </div>
+          <div class="menu mt-12 mx-2">
+            <div
+              class="my-3 hover:bg-blue-400 px-6 py-2 hover:rounded-lg hover:text-blue-50 hover:duration-200"
+            >
+              <img src="" alt="" />
+              <a href=""> Dashboard</a>
+            </div>
+            <div
+              class="my-3 hover:bg-blue-400 px-6 py-2 hover:rounded-lg hover:text-blue-50 hover:duration-200"
+            >
+              <img src="" alt="" />
+              <a href=""> List</a>
+            </div>
+            <div
+              class="my-3 hover:bg-rose-500 px-6 py-2 hover:rounded-lg hover:text-blue-50 hover:duration-200"
+            >
+              <img src="" alt="" />
+              <a href=""> log out</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- main -->
+      <section>
+        <div class="p-5">
+          <div>
+            <h1 class="text-3xl font-bold text-neutral-800 mt-6 ml-8">
+              Admin Overview
+            </h1>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="ml-7 my-10 mx-4 p-3 bg-blue-50 rounded-lg w-52 h-32">
+              <h2 class="text-lg text-neutral-500">income</h2>
+              <p class="font-semibold text-neutral-900">Rp. 50.000.000</p>
+            </div>
+            <div class="my-10 mx-3 p-3 bg-blue-50 rounded-lg w-52 h-32">
+              <h2 class="text-lg text-neutral-500">income</h2>
+              <p class="font-semibold text-neutral-900">Rp. 50.000.000</p>
+            </div>
+            <div class="my-10 mx-3 p-3 bg-blue-50 rounded-lg w-52 h-32">
+              <h2 class="text-lg text-neutral-500">income</h2>
+              <p class="font-semibold text-neutral-900">Rp. 50.000.000</p>
+            </div>
+            <div class="my-10 mx-3 p-3 bg-blue-50 rounded-lg w-52 h-32">
+              <h2 class="text-lg text-neutral-500">income</h2>
+              <p class="font-semibold text-neutral-900">Rp. 50.000.000</p>
+            </div>
+            <div class="my-10 mx-3 p-3 bg-blue-50 rounded-lg w-52 h-32">
+              <h2 class="text-lg text-neutral-500">income</h2>
+              <p class="font-semibold text-neutral-900">Rp. 50.000.000</p>
+            </div>
+          </div>
+
+          <div
+            id="chart1"
+            class="ml-7 mb-10 p-3 rounded-lg bg-blue-50 mr-2 h-96"
+          >
+            chart
+          </div>
+
+          <div class="flex flex-box">
+            <div class="ml-7 mb-10 p-3 rounded-lg bg-blue-50 mr-2 h-64 w-64">
+              chart2
+            </div>
+            <div class="ml-7 mb-10 p-3 rounded-lg bg-blue-50 mr-2 h-64 w-1/2">
+              konten
+            </div>
+            <div class="ml-7 mb-10 p-3 rounded-lg bg-blue-50 mr-2 h-64 w-64">
+              chart3
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <script>
+      // let myChart = document.getElementById("chart1").getContext("2d");
+      // let massPopChart = new Chart(chart1, {
+      //   type: "bar",
+      //   data: {
+      //     labels: [
+      //       "Boston",
+      //       "Worcester",
+      //       "Springfield",
+      //       "Lowell",
+      //       "Cambridge",
+      //       "New Bedford",
+      //     ],
+      //     datasets: [
+      //       {
+      //         label: "Population",
+      //         data: [617594, 181045, 153060, 106519, 105262, 95072],
+      //       },
+      //     ],
+      //   },
+      // });
+    </script>
+  </body>
+</html>
